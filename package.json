@@ -1,24 +1,32 @@
 {
-  "name": "vue3-component-template",
+  "name": "ts-chunk-file-upload",
   "private": false,
   "version": "0.0.1",
   "type": "module",
-  "description": "a vue3-component-template",
+  "description": "big file chunk and upload,you can custom request ",
   "keywords": [
-    "component",
-    "template"
+    "分片上传",
+    "断点续传",
+    "切片上传",
+    "文件上传",
+    "自定义请求"
   ],
   "license": "MIT",
+  "author": "peoren",
   "files": [
     "dist"
   ],
-  "main": "./dist/my-lib.umd.cjs",
-  "module": "./dist/my-lib.js",
+  "main": "./dist/chunkUploadFile.umd.cjs",
+  "module": "./dist/chunkUploadFile.js",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/chunkUploadFile.js",
+      "require": "./dist/chunkUploadFile.umd.cjs"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peoren/ts-chunk-file-upload"
   },
   "scripts": {
     "dev": "vite --force --host",
@@ -27,8 +35,6 @@
   },
   "dependencies": {
     "@types/spark-md5": "^3.0.4",
-    "sass": "^1.69.5",
-    "sass-loader": "^13.3.3",
     "spark-md5": "^3.0.2",
     "vite-plugin-eslint": "^1.8.1"
   },
