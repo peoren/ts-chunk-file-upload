@@ -1,0 +1,44 @@
+{
+  "name": "vue3-component-template",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "a vue3-component-template",
+  "keywords": [
+    "component",
+    "template"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/my-lib.umd.cjs",
+  "module": "./dist/my-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.js",
+      "require": "./dist/my-lib.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite --force --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.3",
+    "vite-plugin-eslint": "^1.8.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "3.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.7.0"
+  }
+}

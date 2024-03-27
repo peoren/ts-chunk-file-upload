@@ -1,0 +1,12 @@
+# Eslint 会忽略的文件
+
+index.html
+public
+.DS_Store
+node_modules
+dist
+dist-ssr
+*.local
+.npmrc
+*.js
+constants.json
