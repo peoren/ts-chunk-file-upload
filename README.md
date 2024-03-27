@@ -1,8 +1,8 @@
-# js-chunk-file-upload
+# ts-chunk-file-upload
 
 ## 序言
 
-> js-chunk-file-upload是用于处理大文件切片断点续传的工具，相较于其他断点续传包，在已有的切片，断点续传基础上新增自定义上传请求，使用更为灵活。
+> ts-chunk-file-upload是用于处理大文件切片断点续传的工具，相较于其他断点续传包，在已有的切片，断点续传基础上新增自定义上传请求，使用更为灵活。
 
 ## 项目信息
 
@@ -15,7 +15,7 @@
 ## 用法
 
 ```
-$ npm i js-chunk-file-upload
+$ npm i ts-chunk-file-upload
 ```
 
 ```js   

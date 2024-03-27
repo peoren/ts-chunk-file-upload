@@ -1,7 +1,7 @@
 {
   "name": "ts-chunk-file-upload",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "big file chunk and upload,you can custom request ",
   "keywords": [
@@ -17,6 +17,7 @@
     "dist"
   ],
   "main": "./dist/chunkUploadFile.umd.cjs",
+  "types": "./dist/chunkUploadFile.d.ts",
   "module": "./dist/chunkUploadFile.js",
   "exports": {
     ".": {
